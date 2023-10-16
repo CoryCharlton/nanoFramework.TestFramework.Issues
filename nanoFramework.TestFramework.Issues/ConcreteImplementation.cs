@@ -1,6 +1,7 @@
 ﻿namespace TestFramework.Issues
 {
-    internal class ConcreteImplementation: IDefaultImplementation
+    // This does not cause an issue
+    public class ConcreteImplementation: IDefaultImplementation
     {
     }
 }
